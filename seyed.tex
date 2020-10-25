@@ -1,0 +1,191 @@
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,letter,ragged2e]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\usepackage{hyperref}
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{outlines}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Seyed Yahya Shirazi}
+\tagline{Ph.D. Candidate in Mechanical Engineering}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%\photo{3.3cm}{profile.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{\href{mailto:shirazi@ieee.org}{shirazi@ieee.org}}
+  \phone{407-989-5984}
+%  \mailaddress{Address, Street, 00000 County}
+  \location{Orlando, FL}
+%  \homepage{marissamayr.tumblr.com/}
+ \twitter{\href{https://twitter.com/shirazi_en}{@shirazi\_en}}
+  \linkedin{\href{https://www.linkedin.com/in/seyedyahya/}{/seyedyahya}}
+   \github{\href{https://github.com/neuromechanist}{/neuromechanist}} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[side1]{Experience}
+
+\cvevent{Graduate Research Assistant}{UCF BRaIN Lab}{Jan. 2017 -- Present}{Orlando, FL}
+\begin{itemize}
+\item Study responses of young and older adults to mechanical perturbations during exercise on a robotic recumbent stepper. We collect \& analyze EEG, EMG \& biomechanical data. Analyses span from studying the biomechanical behavior to cortico-muscular connectivity analysis.
+% \smallskip
+\item Developed new 3D position recording methods to digitize EEG electrode locations, using a motion capture system or 3D scanners. For this project, we implemented several image-processing \& clustering techniques including iterative closest point (ICP) \& Gaussian mixture model (GMM).
+\smallskip
+\item Constructed deep neural network models for online classification of EEG signals to find movement intention in a locomotor task prior to movement execution.
+\end{itemize}
+
+\divider
+
+\cvevent{Graduate Research Assistant}{Tehran Polytechnic}{Sept. 2011 -- Feb. 2016}{Tehran, Iran}
+\begin{itemize}
+\item Studied responses of transtibial amputees and healthy participants to different mechanical perturbations during standing.
+\item Designed and created a multi-directional perturbing mechanism that disturbs participants in the pitch and roll directions directions.
+\item Designed a pneumatic control system to create rapid movements for the perturbing mechanism using LabVIEW.
+\end{itemize}
+%\divider
+
+\cvsection{Education}
+
+\cvevent{Doctor of Philosophy}{University of Central Florida | Mechanical Engineering }{Jan. 2017 -- Apr. 2021 (expected)}{}
+\begin{itemize}
+\item Post Candidacy, GPA: 3.75
+\end{itemize}
+
+\divider
+
+\cvevent{Master of Science}{Tehran Polytechnic  | Biomedical Engineering}{Sep. 2011 -- Feb. 2014}{}
+\begin{itemize}
+\item Thesis : Dynamic Postural Stability Analysis on Standing Normal Subjects \& Transtibial Amputees.
+% \smallskip
+\item GPA: 3.76
+\end{itemize}
+
+\divider
+
+\cvevent{Bachelor of Science (with Honors)}{Tehran Polytechnic  | Biomedical Engineering}{Sep. 2007 -- Sep. 2011}{}
+\begin{itemize}
+\item Bachelor Project: Development of a Stability Analyzer featuring a
+Perturbation Module
+% \smallskip
+\item GPA: 3.70 (top 3rd in the department)
+\end{itemize}
+
+% \cvsection{Achievements}
+% \smallskip
+% \begin{itemize}
+% \item Placed in top 14\% in RSNA Pneumonia Detection Kaggle challenge
+% \smallskip
+% \item Placed in top 3\% in Digit Recognition Challenge using One-Shot Learning
+% \smallskip
+% \item Winner at Samsung SMS Classification Hackathon
+% \smallskip
+% \item Placed in top 5\% in "Predict the Happiness" Hackerearth Challenge
+% \smallskip
+% \item Secured AIR 1232 in GATE 2017
+% \end{itemize}
+
+% \cvsection{SKILLS}
+
+% \cvskill{C++, Python, Keras, Unix}{5}
+% % \divider
+
+% \cvskill{Tensorflow, Pytorch, Darknet}{4}
+% \divider
+%\cvskill{German}{3}
+
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+\clearpage
+
+% \cvsection[page2sidebar]{Publications}
+
+\nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% %% If the NEXT page doesn't start with a \cvsection but you'd
+% %% still like to add a sidebar, then use this command on THIS
+% %% page to add it. The optional argument lets you pull up the
+% %% sidebar a bit so that it looks aligned with the top of the
+% %% main column.
+% % \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
