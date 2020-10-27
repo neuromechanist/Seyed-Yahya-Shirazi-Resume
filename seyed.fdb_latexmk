@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber seyed"] 1603586153 "seyed.bcf" "seyed.bbl" "seyed" 1603675842
-  "seyed.bcf" 1603675841 101277 4b1c2fb9b5fd02069d97bcebfdabd576 "pdflatex"
+["biber seyed"] 1603586153 "seyed.bcf" "seyed.bbl" "seyed" 1603822337
+  "seyed.bcf" 1603822336 101277 4b1c2fb9b5fd02069d97bcebfdabd576 "pdflatex"
   (generated)
-  "seyed.bbl"
   "seyed.blg"
-["pdflatex"] 1603675839 "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.tex" "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.pdf" "seyed" 1603675842
+  "seyed.bbl"
+["pdflatex"] 1603822334 "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.tex" "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.pdf" "seyed" 1603822337
   "altacv.cls" 1603586009 11083 678cec1f58ab5d10489ea1a2911a28c2 ""
-  "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.aux" 1603675841 1076 27b6595a2a60ce5fabfee4746d5aea9e ""
+  "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.aux" 1603822336 1076 27b6595a2a60ce5fabfee4746d5aea9e ""
   "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.tex" 1603591619 7430 7c35b4553d057d25fdf503b3263d5484 ""
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1603544281 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1603544680 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -206,18 +206,18 @@
   "c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1603546279 4851253 a533a4526d7bf069c355e34a42d65ce7 ""
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1603546417 2432385 e2feefdcbde59c8a9cd35da3531aaaab ""
   "c:/texlive/2020/texmf.cnf" 1603546261 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "seyed.aux" 1603675841 1076 27b6595a2a60ce5fabfee4746d5aea9e "pdflatex"
+  "seyed.aux" 1603822336 1076 27b6595a2a60ce5fabfee4746d5aea9e "pdflatex"
   "seyed.bbl" 1603586155 0 d41d8cd98f00b204e9800998ecf8427e "biber seyed"
-  "seyed.out" 1603675841 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "seyed.run.xml" 1603675841 2314 769ec69c116f50110481a5029b8713a9 "pdflatex"
+  "seyed.out" 1603822336 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "seyed.run.xml" 1603822336 2314 769ec69c116f50110481a5029b8713a9 "pdflatex"
   "seyed.tex" 1603591619 7430 7c35b4553d057d25fdf503b3263d5484 ""
-  "side1.tex" 1603675838 2443 4d014c4f4e5b0f826897bc59acfd2f13 ""
+  "side1.tex" 1603822332 2467 fe71e4633ae1b0644135dd22fa609575 ""
   (generated)
-  "seyed.log"
-  "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.log"
-  "seyed.out"
-  "seyed.run.xml"
   "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.pdf"
-  "seyed.bcf"
-  "seyed.pdf"
+  "c:/Users/aftab/Documents/_tex-repo/Seyed-Yahya-Shirazi-Resume/seyed.log"
+  "seyed.run.xml"
   "seyed.aux"
+  "seyed.out"
+  "seyed.bcf"
+  "seyed.log"
+  "seyed.pdf"
