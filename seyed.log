@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  17 DEC 2020 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  4 FEB 2021 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,10 +1322,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,5n,96p,1211b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb><c:/texlive/2020/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on c:/Users/seyed/Documents/_git-tex/Seyed-Yahya-Shirazi-Resume/seyed.pdf (1 page, 149982 bytes).
+Output written on c:/Users/seyed/Documents/_git-tex/Seyed-Yahya-Shirazi-Resume/seyed.pdf (1 page, 150343 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

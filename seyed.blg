@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'seyed.blg'
-[63] biber-MSWIN32:322> INFO - === 
-[80] Biber.pm:415> INFO - Reading 'seyed.bcf'
-[174] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[190] Biber.pm:4256> INFO - Processing section 0
-[191] Utils.pm:75> INFO - Globbing data source 'sample.bib'
-[199] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
-[211] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[76] biber-MSWIN32:322> INFO - === 
+[95] Biber.pm:415> INFO - Reading 'seyed.bcf'
+[206] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[224] Biber.pm:4256> INFO - Processing section 0
+[225] Utils.pm:75> INFO - Globbing data source 'sample.bib'
+[234] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
+[248] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
